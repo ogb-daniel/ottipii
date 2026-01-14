@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail OTP Fetcher",
+  "version": "1.0",
+  "description": "Fetch OTPs from your Gmail.",
+  "permissions": ["identity"],
+  "host_permissions": ["https://www.googleapis.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
