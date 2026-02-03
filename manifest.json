@@ -3,12 +3,22 @@
   "name": "Gmail OTP Fetcher",
   "version": "1.0",
   "description": "Fetch OTPs from your Gmail.",
+  "icons": {
+    "16": "logo-16.png",
+    "48": "logo-32.png",
+    "128": "logo-128.png"
+  },
   "permissions": ["identity"],
   "host_permissions": ["https://www.googleapis.com/*"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": "logo-16.png"
+  },
+  "oauth2": {
+    "client_id": "256245491153-g6eqg1jirblnsi19oqm488jb6dar6sel.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
   }
 }
