@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gmail OTP Fetcher",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Fetch OTPs from your Gmail.",
   "icons": {
     "16": "logo-16.png",
